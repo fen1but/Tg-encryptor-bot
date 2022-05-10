@@ -250,8 +250,6 @@ def tt(message):
         elif dec == 2:
             while letter < len(message.text):
 
-                # DONT READ FURTHER IF YOU HAD A WEAK PSYCHE
-
                 if message.text[letter] == 'A' or message.text[letter] == '4' or message.text[letter] == '@' or \
                         message.text[letter] == 'λ' or message.text[letter] == 'a':
                     l33t = l33t + 'a'
